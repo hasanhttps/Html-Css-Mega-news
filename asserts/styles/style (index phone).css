@@ -1,0 +1,154 @@
+/*!Header*/
+
+header{
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: none;
+    z-index: 999;
+    height: 100px;
+}
+
+header .desktop-header{
+    gap: 10px;
+}
+
+header .right-header{
+    width: 300px !important;
+}
+
+header .left-header{
+    width: 48px !important;
+}
+
+header .right-header{
+    width: 300px !important;
+}
+
+header .tablet-header .search-section, .left-header .navbar-2 .logo .logo-text, .right-header .user-section, .bookmark-section{
+    visibility: hidden !important;
+    height: 0px !important;
+    width: 0px !important;
+}
+
+header .right-header .search-section{
+    visibility: visible !important;
+    width: 700px !important;
+    height: 48px !important;
+    justify-content:flex-start;
+}
+
+header .right-header .search-section .search-box{
+    width: 250px !important;
+}
+
+header .right-header .search-section .search-box input{
+    width: 220px;
+}
+
+/*!Header End*/
+
+/*!Main*/
+
+main{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+main .top-tags-tablet{
+    visibility: hidden !important;
+    width: 0px;
+    height: 0px;
+}
+
+main .popular-posts{
+    margin-top: 0px;
+    overflow: hidden;
+    gap: 8.5px;
+    width: 358px;
+}
+
+main .sports-widget #tablet{
+    visibility: hidden !important;
+    width: 0px;
+    height: 0px;
+}
+
+main .sports-widget #phone{
+    visibility: visible;
+    width: 100%;
+}
+
+main .posts-section{
+    gap: 0px;
+}
+
+main .new-posts-section{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+main .new-posts-section-phone{
+    margin-top: 40px;
+    visibility: visible !important;
+    width: 358px;
+    height: 445px;
+    gap: 8.5px;
+}
+
+main .trendy-posts-section .trendy-posts{
+    margin-top: 40px;
+    width: 358px !important;
+    gap: 8.5px; 
+}
+
+main .top-posts-section .top-posts{
+    margin-top: 40px;
+    width: 358px !important;
+}
+
+main .latest-videos-section{
+    gap: 20px;
+    margin-top: 40px;
+    padding-top: 45px;
+}
+
+main .latest-videos-section .header-section{
+    width: 358px !important;
+    margin-bottom: 0px;
+}
+
+main .latest-videos-section img{
+    width: 358px !important;
+    height: auto !important;
+    object-fit: contain;
+}
+
+main .weather{
+    width: 390px;
+    margin-top: 0px;
+}
+
+main .weather #tablet{
+    visibility: hidden !important;
+    height: 0px;
+    width: 0px; 
+}
+
+main .weather #phone{
+    visibility: visible !important;
+    width: 390px;
+}
+
+footer{
+    visibility: hidden !important;
+    width: 0px;
+    height: 0px !important;
+}
+
+main #new-posts{
+    visibility: hidden !important;
+    width: 0px;
+    height: 0px;
+}

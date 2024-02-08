@@ -141,14 +141,19 @@ main .weather #phone{
     width: 390px;
 }
 
-footer{
-    visibility: hidden !important;
-    width: 0px;
-    height: 0px !important;
-}
 
 main #new-posts{
     visibility: hidden !important;
     width: 0px;
     height: 0px;
+}
+
+/*!Main End*/
+
+/*!Footer*/
+
+footer{
+    visibility: hidden !important;
+    width: 0px;
+    height: 0px !important;
 }

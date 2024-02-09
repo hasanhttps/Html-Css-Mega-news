@@ -4,6 +4,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Roboto;
     box-sizing: border-box;
 }
 
@@ -486,6 +487,102 @@ main .add-comment{
     margin-top: 60px;
 }
 
+main .post-section .right-section{
+    gap: 25px;
+}
+
+main .post-section .right-section .single-element{
+    gap: 9px;
+}
+
+main .post-section .right-section .single-element button{
+    width: 116px;
+    height: 40px;
+    border-radius: 12px;
+    gap: 8px;
+    color: #3E3232BF;
+    background-color: #F5F5F5;
+}
+
+main .post-section .right-section .profile-section{
+    width: 365px;
+    height: 117px;
+    border-radius: 12px;
+    padding: 15px;
+    background: #F5F5F5;
+}
+
+main .post-section .right-section .profile-section .left{
+    gap: 10px;
+    width: 87px;
+}
+
+main .post-section .right-section .profile-section .left .name{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #3E3232;
+}
+
+main .post-section .right-section .profile-section .left .follow{
+    gap: 16px;
+}
+
+main .post-section .right-section .tags-section{
+    width: 365px;
+    height: 128px;
+    border-radius: 12px;
+    padding: 20px 21px 20px 15px;
+    background: #F5F5F5;
+}
+
+main .post-section .right-section .tags-section .body-section{
+    padding-top: 21px;
+    gap: 14px;
+}
+
+main .post-section .right-section .tags-section .body-section .text{
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #3E3232BF;
+}
+
+main .post-section .right-section .top-posts-section{
+    padding: 20px 25px 20px 15px;
+    border-radius: 12px;
+    background-color: #F5F5F5;
+}
+
+main .post-section .right-section .top-posts-section .body-section{
+    margin-top: 20px;
+    gap: 20px;
+}
+
+main .post-section .right-section .top-posts-section .body-section .post{
+    gap: 10px;
+}
+
+main .post-section .right-section .top-posts-section .body-section .post .content{
+    gap: 6px;
+}
+
+main .post-section .right-section .top-posts-section .body-section .post .content .title{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #3E3232;
+}
+
+main .post-section .right-section .top-posts-section .body-section .post .content .t1{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+}
+
 main .posts-section{
     padding: 20px 0px;
     display: flex;
@@ -619,6 +716,7 @@ main .top-posts-section .top-posts{
 footer{
     margin-top: 100px;
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 

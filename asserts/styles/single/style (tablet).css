@@ -79,7 +79,78 @@ header .desktop-header .left-header .navbar-2 .hamburger-menu .barsbody .button1
 
 /*!Main*/
 
+main .post-section .right-section{
+    visibility: hidden;
+    width: 0px !important;
+    height: 0px;
+}
 
+main .post-section{
+    justify-content: center;
+    width: 604px;
+}
+
+main .path-section{
+    width: 605px;
+}
+
+main .post-section .left-section{
+    width: 604px;
+}
+
+main .post-section .left-section .post-header{
+    height: 486px;
+}
+
+main .post-section .left-section .background{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+main .post-section .left-section .post-header .post-title{
+    width: 600px;
+}
+
+main .post-section .left-section .post-header img{
+    top: 150px;
+    width: 604px;
+    height: 336px;
+}
+
+main .post-section .left-section .bottom-content{
+    width: 604px;
+}
+
+main .post-section .left-section .bottom-content .content .content-title{
+    width: 472px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #3E3232;
+}
+
+main .post-section .left-section .bottom-content .image img{
+    width: 491px;
+    height: 273px;
+}
+
+main .post-section .left-section .comments .comments-section .comment1-reply{
+    left: 20px;
+    width: 563px;
+}
+
+main .top-posts-section .top-posts{
+    width: 604px;
+}
+
+.title-section{
+    width: 604px;
+}
+
+main .posts-section{
+    width: 604px;
+}
 
 /*!Main End*/
 

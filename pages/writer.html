@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../asserts/styles/writer/style (desktop).css">
+    <link rel="stylesheet" media="screen and (max-width: 1512px)" href="../asserts/styles/writer/style (tablet).css">
+    <link rel="stylesheet" media="screen and (max-width: 744px)" href="../asserts/styles/writer/style (phone).css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mega News</title>
+</head>
+<body>
+    <div class="d-flex flex-column align-items-center">
+
+        <!--!Header-->
+
+        <header>
+            <section class="desktop-header">
+                <section class="left-header">
+                    <div class="navbar-2">
+                        <div class="hamburger-menu">
+                            <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" style="margin:0px">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <p class="logo-text">MEGA.news</p>
+                                <button type="button" class="border-0" data-bs-dismiss="offcanvas">
+                                    <img src="../asserts/images/closemenu.jpg">
+                                </button>
+                            </div>
+                            <div class="offcanvas-body barsbody">
+                                <button type="button" class="border-0">
+                                    <img src="../asserts/images/categoriesbutton.jpg">
+                                </button>
+                                <div class="dropdown mt-3">
+                                    <button class="btn btn-secondary bg-transparent border-0 text-black" type="button" data-bs-toggle="dropdown">
+                                        <p class="menu-text">Pages</p>
+                                        <img src="../asserts/images/slider.png">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                                <button type="button" class="border-0 bg-transparent button1">
+                                    <p class="menu-text">Contact Us</p>
+                                </button>
+                                <button type="button" class="border-0 bg-transparent button1">
+                                    <p class="menu-text">About Us</p>
+                                </button>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="logo">
+                            <p class="logo-text">MEGA.news</p>
+                        </div>
+                    </div>
+                    <section class="navbar">
+                        <div class="menu-item">
+                            <p class="menu-text">Categories</p>
+                            <img src="../asserts/images/slider.png">
+                        </div>
+                        <div class="menu-item">
+                            <p class="menu-text">Pages</p>
+                            <img src="../asserts/images/slider.png">
+                        </div>
+                        <a class="menu-text" href="">Contact Us</a>
+                        <a class="menu-text" href="">About Us</a>
+                    </section>
+                </section>
+        
+                <section class="right-header">
+                    <section class="search-section">
+                        <a href="#" style="text-decoration: none;">
+                            <i id="ellipsis" class="fa-solid fa-ellipsis-vertical"></i>
+                        </a>
+                        <div class="search-box">
+                            <form class="d-flex" role="search">
+                                <div class="search-input d-flex align-items-center p-2 px-2 rounded-3">
+                                    <div class="left-icon d-flex align-items-center">
+                                        <input class="ms-3" type="search" placeholder="Search Anything" aria-label="Search">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <a href="#" style="text-decoration: none; color: var(--Black, #3E3232);">
+                            <i id="search" class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </section>
+                    <section class="user-section">
+                        <img class="profile" src="../asserts/images/13.jpeg">
+                        <p class="account-text">Behzad</p>
+                        <img class="slider" src="../asserts/images/slider.png">
+                    </section>
+                    <section class="bookmark-section">
+                        <img class="mark" src="../asserts/images/bookmark.png" >
+                    </section>
+                </section>
+            </section>
+
+            <section class="tablet-header">
+                <section class="search-section">
+                    <a href="#" style="text-decoration: none;">
+                        <i id="ellipsis" class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <div class="search-box">
+                        <form class="d-flex" role="search">
+                            <div class="search-input d-flex align-items-center p-2 px-2 rounded-3">
+                                <div class="left-icon d-flex align-items-center">
+                                    <input class="ms-3" type="search" placeholder="Search Anything" aria-label="Search">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <a href="#" style="text-decoration: none; color: var(--Black, #3E3232);">
+                        <i id="search" class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </section>
+            </section>
+        </header>
+
+        <!--!Header End-->
+
+        <!--!Main-->
+
+        <main>
+
+            <section class="path-section">
+                <p class="path-text">Home</p>
+                <i class="fa-solid fa-angle-right"></i>
+                <p class="content-text">Writer</p>
+            </section>
+
+            <section class="popular-posts">
+                <div class="title-section">
+                    <section class="left-section">
+                        <div class="rectangle"></div>
+                        <p class="t1">Popular Posts</p>
+                    </section>
+
+                    <section class="right-section">
+                        <button id="prev-button" class="prev-pages" onclick="prev('popular-posts')"> 
+                            <div class="background">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </div>
+                        </button>
+
+                        <button id="next-button" class="next-pages" onclick="next('popular-posts')">
+                            <div class="background">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </button>
+                    </section>
+                </div>
+
+                <div id="popular-posts" class="posts-section">
+                    <div id="post" class="post-item1">
+                        <img src="../asserts/images/boat.jpeg">
+                        <p class="title">Opening Day of Boating Season, Seattle WA</p>
+                        <p class="t1">Of course the Puget Sound is very watery, and where there is water, there are boats. Today is the Grand Opening of Boating Season when traffic gets stalled in the University District (UW) while the Montlake Bridge</p>
+                        <div class="info">
+                            <div class="content">
+                                <img src="../asserts/images/person1.jpeg">
+                                <div class="name-date-section">
+                                    <p class="name-text">James</p>
+                                    <p class="date-text">August 18 , 2022</p>
+                                </div>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div id="post" class="post-item2">
+                        <img src="../asserts/images/mackbook.jpg">
+                        <p class="title">How to choose the right laptop for programming</p>
+                        <p class="t1">Choosing the right laptop for programming can be a tough process. It’s easy to get confused while researching the various options. There are many different laptop models out there, each with a different set of trade-offs</p>
+                        <div class="info">
+                            <div class="content">
+                                <img src="../asserts/images/person2.jpg">
+                                <div class="name-date-section">
+                                    <p class="name-text">Louis Hoebregts</p>
+                                    <p class="date-text">July 25 , 2022</p>
+                                </div>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div id="post" class="post-item3">
+                        <img src="../asserts/images/porsche.jpg">
+                        <p class="title">How we built the first real self-driving car</p>
+                        <p class="t1">Electric self-driving cars will save millions of lives and significantly accelerate the world’s transition to sustainable energy, but only when</p>
+                        <div class="info">
+                            <div class="content">
+                                <img src="../asserts/images/person3.jpg">
+                                <div class="name-date-section">
+                                    <p class="name-text">Mary</p>
+                                    <p class="date-text">July 14 , 2022</p>
+                                </div>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div id="post" class="post-item4">
+                        <img src="../asserts/images/work-place-mac-iphone.jpg">
+                        <p class="title">How to choose the right laptop for programming</p>
+                        <p class="t1">Choosing the right laptop for programming can be a tough process. It’s easy to get confused while researching the various options. There are many different laptop models out there, each with a different set of trade-offs</p>
+                        <div class="info">
+                            <div class="content">
+                                <img src="../asserts/images/person2.jpg">
+                                <div class="name-date-section">
+                                    <p class="name-text">Robey</p>
+                                    <p class="date-text">July 14 , 2022</p>
+                                </div>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div id="post" class="post-item5">
+                        <img src="../asserts/images/hotdog.jpg">
+                        <p class="title">How to Persuade Your Parents to Buy Fast Food</p>
+                        <p class="t1">Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not worth the effort and time.</p>
+                        <div class="info">
+                            <div class="content">
+                                <img src="../asserts/images/person4.jpg">
+                                <div class="name-date-section">
+                                    <p class="name-text">Jon Kantner</p>
+                                    <p class="date-text">May 10 , 2022</p>
+                                </div>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div id="post" class="post-item6">
+                        <img src="../asserts/images/audi-car.jpg">
+                        <p class="title">How to build a self-driving car in one month</p>
+                        <p class="t1">Can I learn the necessary computer science to build the software part of a self-driving car in one month?</p>
+                        <div class="info">
+                            <div class="content">
+                                <img src="../asserts/images/person3.jpg">
+                                <div class="name-date-section">
+                                    <p class="name-text">Mary</p>
+                                    <p class="date-text">July 14 , 2022</p>
+                                </div>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div id="post" class="post-item7">
+                        <img src="../asserts/images/skateboard.jpg">
+                        <p class="title">Self-Improvement Has Become An Extreme Sport</p>
+                        <p class="t1">What we’re told we must do each day to develop and be successful has gone out of control. We have endless lists of habits that we’re supposed to do</p>
+                        <div class="info">
+                            <div class="content">
+                                <img src="../asserts/images/person1.jpeg">
+                                <div class="name-date-section">
+                                    <p class="name-text">James</p>
+                                    <p class="date-text">July 14 , 2022</p>
+                                </div>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div id="post" class="post-item8">
+                        <img src="../asserts/images/red-audi-car.jpg">
+                        <p class="title">Why Buying a New Car Makes More Sense than Buying Used</p>
+                        <p class="t1">Many experts will tell you buying cars used is best for your long-term financial health. Here’s why they’re (mostly) wrong</p>
+                        <div class="info">
+                            <div class="content">
+                                <img src="../asserts/images/person3.jpg">
+                                <div class="name-date-section">
+                                    <p class="name-text">Mary</p>
+                                    <p class="date-text">July 14 , 2022</p>
+                                </div>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div id="post" class="post-item9">
+                        <img src="../asserts/images/egg.jpg">
+                        <p class="title">10 Cooking Lessons to Use in Everyday Life</p>
+                        <p class="t1">I recently stumbled upon this quote by Paul Theroux: “Cooking requires confident guesswork and improvisation </p>
+                        <div class="info">
+                            <div class="content">
+                                <img src="../asserts/images/person4.jpg">
+                                <div class="name-date-section">
+                                    <p class="name-text">Jon Kantner</p>
+                                    <p class="date-text">July 14 , 2022</p>
+                                </div>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div id="post" class="post-item10">
+                        <img src="../asserts/images/typography.jpg">
+                        <p class="title">Typography can make or break your design: a process for choosing type</p>
+                        <p class="t1">One of the most important skills you can learn as a designer is how to choose type. This is because text is one of the primary ways designers can communicate with users. Typography can make or break a design. There’s a beauty and complexity to typography. Some people devote their…
+                        </p>
+                        <div class="info">
+                            <div class="content">
+                                <img src="../asserts/images/person2.jpg">
+                                <div class="name-date-section">
+                                    <p class="name-text">Robert</p>
+                                    <p class="date-text">July 14 , 2022</p>
+                                </div>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div id="post" class="post-item11">
+                        <img src="../asserts/images/boat_massive.jpg">
+                        <p class="title">House boating on Lake Shasta</p>
+                        <p class="t1">The best way to spend a long 4th of July weekend. Wake boarding, swimming, barbecues, and bonfires.</p>
+                        <div class="info">
+                            <div class="content">
+                                <img src="../asserts/images/person1.jpeg">
+                                <div class="name-date-section">
+                                    <p class="name-text">James</p>
+                                    <p class="date-text">July 14 , 2022</p>
+                                </div>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+
+                    <div id="post" class="post-item12">
+                        <img src="../asserts/images/pasta-lasagna.jpg">
+                        <p class="title">Lasagna is but a Pasta Cake</p>
+                        <p class="t1">Re-envision the description of a common food from a different perspective — it is … pasta cake layered with cheese, meat, pasta repeated, bake and serve.</p>
+                        <div class="info">
+                            <div class="content">
+                                <img src="../asserts/images/person4.jpg">
+                                <div class="name-date-section">
+                                    <p class="name-text">Jon Kantner</p>
+                                    <p class="date-text">July 14 , 2022</p>
+                                </div>
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="general d-flex">
+                    <button style="width: 40px; height: 40px; margin-right: 5px;" class="bg-light">
+                        <p>1</p>
+                    </button>
+
+                    <button style="width: 40px; height: 40px; margin-right: 5px;" class="bg-transparent">
+                        <p>2</p>
+                    </button>
+
+                    <button style="width: 40px; height: 40px; margin-right: 5px;" class="bg-transparent">
+                        <p>3</p>
+                    </button>
+
+                    <button style="width: 40px; height: 40px; margin-right: 5px;" class="bg-transparent">
+                        <p>...</p>
+                    </button>
+
+                    <button style="width: 40px; height: 40px; margin-right: 5px;" class="bg-transparent">
+                        <p>9</p>
+                    </button>
+
+                    <button style="width: 94px; height: 40px; border-radius: 12px;" class="bg-light d-flex text-secondary align-items-center gap-1 justify-content-center">
+                        <p>Next</p>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <!--!Main End-->
+
+        <!--!Footer-->
+
+        <footer>
+            <section class="left-section">
+                <section class="news-categories-section">
+                    <div class="mega-news">
+                        <div class="title-section" style="justify-content: flex-end !important; gap: 6px;">
+                            <div class="rectangle"></div>
+                            <p class="t1">Mega News</p> 
+                        </div>
+
+                        <div class="explanation">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin
+                        </div>
+                    </div>
+
+                    <div class="categories">
+                        <div class="title-section" style="justify-content: flex-end !important; gap: 6px;">
+                            <div class="rectangle"></div>
+                            <p class="t1">Categories</p> 
+                        </div>
+
+                        <div class="categories-buttons">
+                            <a href="#">Culture</a>
+                            <a href="#">Fashion</a>
+                            <a href="#">Featured</a>
+                            <a href="#">Food</a>
+                            <a href="#">Healthy Living</a>
+                            <a href="#">Technology</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="newsletters-section">
+                    <div class="newsletters">
+                        <section class="title-section" style="justify-content: flex-end !important; gap: 6px;">
+                            <div class="rectangle"></div>
+                            <p class="t1">News Letters</p>
+                        </section>
+
+                        <section class="email-input">
+                            <form>
+                                <div class="input-group">
+                                    <input id="email" class="form-control border-white" id="email" name="email" type="text" placeholder="Write Your Email .."/>
+                                    <div id="envelope" class="input-group-addon align-items-center bg-transparent d-flex">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                  </div>
+                            </form>
+                        </section>
+                    </div>
+
+                    <div class="social-network">
+                        <section class="title-section" style="justify-content: flex-end !important; gap: 6px;">
+                            <div class="rectangle"></div>
+                            <p class="t1">Social Network</p>
+                        </section>
+
+                        <section class="social-section">
+                            <a class="instagram" href="#"><img src="../asserts/images/instagram-bt.jpg"></a>
+                            <a class="twitter" href="#"><img src="../asserts/images/twitter-bt.jpg"></a>
+                        </section>
+                    </div>
+                </section>
+
+                <section class="terms-section">
+                    <div class="content">
+                        <p>privacy policy | terms & conditions</p>
+                        <p>all copyright (c) 2022 reserved</p>
+                    </div>
+                </section>
+            </section>
+
+            <section class="right-section">
+                <div class="new-comments">
+                    <section class="title-section" style="justify-content: start !important; gap: 6px;">
+                        <div class="rectangle"></div>
+                        <p class="t1">News Letters</p>
+                    </section>
+
+                    <section class="comments">
+
+                        <div class="comment">
+                            <p class="name">Ellsmartx</p>
+                            <p class="content">How nice does this look 😍 I feel it should be delicious, thank you</p>
+                        </div>
+
+                        <div class="comment">
+                            <p class="name">Cassia</p>
+                            <p class="content">Take a rest, i'll be cheer up you again in 2 next game go go go</p>
+                        </div>
+
+                        <div class="comment">
+                            <p class="name">Amanda</p>
+                            <p class="content">You were stunning today, jan! 💗 great match 👍🏽👍🏽</p>
+                        </div>
+
+                        <div class="comment">
+                            <p class="name">Denis Simonassi</p>
+                            <p class="content">It was a great match today Janzi! You did great😉🇩🇪</p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="follow-instagram">
+                    <section class="title-section" style="justify-content: start !important; gap: 6px;">
+                        <div class="rectangle"></div>
+                        <p class="t1">Follow On Instagram</p>
+                    </section>
+
+                    <section class="images-section">
+                        <img src="../asserts/images/porsche.jpg">
+                        <img src="../asserts/images/dog.jpg">
+                        <img src="../asserts/images/technology.jpg">
+                        <img src="../asserts/images/hotdog.jpg">
+                        <img src="../asserts/images/headphones-blue.jpg">
+                        <img src="../asserts/images/tango.jpg">
+                        <img src="../asserts/images/white-dog.jpg">
+                        <img src="../asserts/images/concer.jpg">
+                        <img src="../asserts/images/boxing.jpg">
+                    </section>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+    <!--!Footer End-->
+
+    <!--*Scripts-->
+
+    <script src="https://kit.fontawesome.com/5ac1ad0237.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../scripts/writer/writer.js"></script>
+    <script src="../scripts/index/index.js"></script>
+</body>
+</html>

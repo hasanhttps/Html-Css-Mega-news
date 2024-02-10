@@ -1,0 +1,62 @@
+/*!Header*/
+
+header{
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: none;
+    z-index: 999;
+    height: 100px;
+}
+
+header .desktop-header{
+    gap: 10px;
+}
+
+header .right-header{
+    width: 300px !important;
+}
+
+header .left-header{
+    width: 48px !important;
+}
+
+header .right-header{
+    width: 300px !important;
+}
+
+header .tablet-header .search-section, .left-header .navbar-2 .logo .logo-text, .right-header .user-section, .bookmark-section{
+    visibility: hidden !important;
+    height: 0px !important;
+    width: 0px !important;
+}
+
+header .right-header .search-section{
+    visibility: visible !important;
+    width: 700px !important;
+    height: 48px !important;
+    justify-content:flex-start;
+}
+
+header .right-header .search-section .search-box{
+    width: 250px !important;
+}
+
+header .right-header .search-section .search-box input{
+    width: 220px;
+}
+
+/*!Header End*/
+
+/*!Main*/
+
+
+
+/*!Main End*/
+
+/*!Footer*/
+
+footer{
+    visibility: hidden !important;
+    width: 0px;
+    height: 0px !important;
+}

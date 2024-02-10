@@ -49,27 +49,8 @@ header .right-header .search-section .search-box input{
 
 /*!Main*/
 
-main .account-header .header, main .bottom-part .center{
-    visibility: hidden;
-    width: 0px;
-}
-
-main .bottom-part .phone{
-    visibility: visible !important;
-
-}
-
-main, main .latest-posts, main .posts-section, main .posts-section #post, main .account-header{
+main, main .latest-posts, main .posts-section, main .posts-section #post{
     width: 358px;
-}
-
-main .account-header{
-    height: 95px;
-    gap: 0px;
-}
-
-main .account-header .bottom-part .left{
-    margin-top: -45px;
 }
 
 main .posts-section #post{

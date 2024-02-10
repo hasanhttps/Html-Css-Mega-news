@@ -78,69 +78,8 @@ header .desktop-header .left-header .navbar-2 .hamburger-menu .barsbody .button1
 /*!Header End*/
 
 /*!Main*/
- 
-main .account-header{
-    width: 604px;
-    padding: 10px 4px 21px;
-}
 
-main .phone{
-    visibility: hidden;
-    width: 0px;
-}
 
-main .account-header .header{
-    width: 596.01px;
-    height: 150px;
-    object-fit: fill;
-}
-
-main .account-header .bottom-part .left{
-    align-items: start;
-}
-
-main .account-header .center{
-    gap: 17px;
-    padding-left: 85px;
-    margin: -21px 0px 0px;
-}
-
-main .bottom-part .left p{
-    margin-top: 11px !important;
-}
-
-main .bottom-part .left-section{
-    flex-direction: column;
-}
-
-main, main .latest-posts, main .posts-section, main .posts-section #post{
-    width: 604px;
-}
-
-main .posts-section #post{
-    display: flex;
-    gap: 9px;
-    height: 210px;
-}
-
-main .posts-section img{
-    width: 190px;
-    height: 190px;
-    object-fit: cover;
-}
-
-main .posts-section .info{
-    width: 100%;
-    justify-content: space-between;
-}
-
-main .posts-section .right-section{
-    width: 385px;
-}
-
-main .posts-section .title, main .posts-section .t1{
-    width: 100%;
-}
 
 /*!Main End*/
 

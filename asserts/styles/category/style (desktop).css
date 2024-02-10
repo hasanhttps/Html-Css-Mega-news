@@ -234,17 +234,6 @@ main{
     width: 1512px;
 }
 
-main .phone{
-    visibility: hidden;
-    width: 0px;
-    height: 0px;
-}
-
-main .account-header .bottom-part .left{
-    align-items: center;
-    gap: 10px;
-}
-
 main .path-section{
     width: 1512px;
     margin-top: 45px;
@@ -272,23 +261,14 @@ main .path-section .content-text{
     color: #3E323280;
 }
 
-main .account-header{
+main .navigation-posts{
+    justify-content: space-between;
+    padding: 0px 20px;
     margin-top: 45px;
-    gap: 15px;
-    padding: 10px 10px 21px;
     width: 1512px;
-    height: 260px;
+    height: 48px;
     border-radius: 12px;
     background-color: #F5F5F5;
-}
-
-main .bottom-part .center{
-    margin: 0px 0px 0px 378px;
-    gap: 60px;
-}
-
-main .bottom-part .left p{
-    text-wrap: nowrap;
 }
 
 main .posts-section{
@@ -299,7 +279,6 @@ main .posts-section{
     width: 1512px;
     gap: 24px;
 }
-
 main .posts-section::-webkit-scrollbar{
     display: none;
 }
@@ -451,9 +430,9 @@ main .title-section .right-section .next-pages i{
     color: #3E3232;
 }
 
-main .latest-posts{
+main .category-posts{
     width: 1512px;
-    margin-top: 68.5px;
+    margin-top: 45px;
     display: flex;
     flex-direction: column;
     gap: 38.5px;

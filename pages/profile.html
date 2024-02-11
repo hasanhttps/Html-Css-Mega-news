@@ -186,11 +186,46 @@
                 <section class="explanation-section d-flex">
                     <div class="explanation">
                         <p class="input-text">Explanation</p>
+                        <div class="background d-flex flex-column">
+                            <div class="add-explanation d-flex">
+                                <div class="element d-flex justify-content-center align-items-center">
+                                    <i class="fa-regular fa-image"></i>
+                                    <p>Image</p>
+                                </div>
+                                
+                                <div class="element d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-eye-dropper"></i>
+                                    <p>Color</p>
+                                </div>
 
+                                <div class="element d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-code"></i>
+                                    <p>Text</p>
+                                </div>
+
+                                <div class="element d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-align-left"></i>
+                                    <p>Align</p>
+                                </div>
+                            </div>
+
+                            <textarea class="explanation-text" type="text" rows="5" placeholder="Type ..."></textarea>
+                        </div>
                     </div>
 
-                    <div class="addimage">
-
+                    <div class="add-image d-flex flex-column">
+                        <p class="input-text">Add Image</p>
+                        <fieldset class="upload_dropZone text-center p-2">
+                            <div class="outline d-flex flex-column justify-content-center align-items-center">
+                                <i class="fa-regular fa-image"></i>
+                                <p style="padding-bottom: 14px;">Drop image here, paste or</p>
+                                <input id="upload_image_logo" data-post-name="image_logo" data-post-url="https://someplace.com/image/uploads/logos/" class="position-absolute invisible" type="file" multiple accept="image/jpeg, image/png, image/svg+xml" />
+                                <div for="upload_image_logo" style="width: 104px; height: 40px; border: 1px solid #3E323280;" class="btn btn-upload mb-3 d-flex gap-2 justify-content-center align-items-center">
+                                    <i style="font-weight: 900; font-size: 14px; line-height: 14px; text-align: center; color: #3E323280;" class="fa-solid fa-plus"></i>
+                                    <label for="upload_image_logo">Select</label>
+                                </div>
+                            </div>
+                        </fieldset>
                     </div>
                 </section>
 

@@ -256,6 +256,71 @@ main .path-section .content-text{
 
 /*!Main End*/
 
+main .profile{
+    margin-top: 45px;
+    width: 1512px;
+}
+
+main .profile .user-information{
+    gap: 22px;
+}
+
+main .profile .user-information .input input{
+    width: 488px;
+    padding: 0px 20px 0px;
+    height: 48px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #F5F5F5;
+}
+
+main .profile .save-section{
+    margin-top: 25px;
+}
+
+main .profile .save-section button{
+    width: 95px;
+    height: 40px;
+    padding: 10px, 24px, 10px, 16px;
+    border-radius: 12px;
+    gap: 8px;
+    background: #F81539BF;
+    color: white;
+}
+
+main .profile .banner-section{
+    margin-top: 20px;
+}
+
+main .profile .banner-section .upload_dropZone{
+    width: 1512px;
+    height: 170px;
+    border-radius: 12px;
+    background-color: #F5F5F5;
+}
+
+main .profile .banner-section .upload_dropZone .outline{
+    height: 150px;
+    width: 1492px;
+    border: 1px solid #E1E1E1;
+    gap: 32px;
+    border-style: dashed;
+    border-radius: 12px;
+}
+
+main .profile .banner-section .upload_dropZone .outline .fa-image{
+    font-size: 96px;
+    color: #3E323240;
+    font-weight: 400;
+    line-height: 96px;
+    text-align: center;
+}
+
+main .profile .explanation-section{
+    margin-top: 20px;
+}
+
 /*!Footer*/
 
 footer{

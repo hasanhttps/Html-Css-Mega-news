@@ -126,12 +126,81 @@
 
         <!--!Main-->
 
-        <main class="d-flex justify-content-center align-items-center">
+        <main class="d-flex flex-column justify-content-center align-items-center">
             <section class="path-section">
                 <p class="path-text">Home</p>
                 <i class="fa-solid fa-angle-right"></i>
                 <p class="content-text">Profile Edit</p>
             </section>
+
+            <form class="profile">
+                <section class="user-information d-flex flex-wrap">
+                    <div class="input d-flex flex-column gap-3 align-items-left">
+                        <p class="input-text">First Name</p>
+                        <input class="input-box" type="text">
+                    </div>
+    
+                    <div class="input d-flex flex-column gap-3">
+                        <p class="input-text">Last Name</p>
+                        <input class="input-box" type="text">
+                    </div>
+    
+                    <div class="input d-flex flex-column gap-3">
+                        <p class="input-text">User Name</p>
+                        <input class="input-box" type="text">
+                    </div>
+    
+                    <div class="input d-flex flex-column gap-3">
+                        <p class="input-text">Old Password</p>
+                        <input class="input-box" type="password">
+                    </div>
+    
+                    <div class="input d-flex flex-column gap-3">
+                        <p class="input-text">Password</p>
+                        <input class="input-box" type="password">
+                    </div>
+    
+                    <div class="input d-flex flex-column gap-3">
+                        <p class="input-text">Email</p>
+                        <input class="input-box" type="email">
+                    </div>
+                </section>
+
+                <section class="banner-section d-flex flex-column gap-3">
+                    <p class="input-text">Add Banner</p>
+                    <fieldset class="upload_dropZone text-center p-2">
+                        <div class="outline d-flex justify-content-center align-items-center">
+                            <i class="fa-regular fa-image"></i>
+                            <div class="right-section d-flex flex-column align-items-start">
+                                <p style="padding-bottom: 14px;">Drop image here, paste or</p>
+                                <input id="upload_image_logo" data-post-name="image_logo" data-post-url="https://someplace.com/image/uploads/logos/" class="position-absolute invisible" type="file" multiple accept="image/jpeg, image/png, image/svg+xml" />
+                                <div for="upload_image_logo" style="width: 104px; height: 40px; border: 1px solid #3E323280;" class="btn btn-upload mb-3 d-flex gap-2 justify-content-center align-items-center">
+                                    <i style="font-weight: 900; font-size: 14px; line-height: 14px; text-align: center; color: #3E323280;" class="fa-solid fa-plus"></i>
+                                    <label for="upload_image_logo">Select</label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </section>
+
+                <section class="explanation-section d-flex">
+                    <div class="explanation">
+                        <p class="input-text">Explanation</p>
+
+                    </div>
+
+                    <div class="addimage">
+
+                    </div>
+                </section>
+
+                <section class="save-section d-flex justify-content-end">
+                    <button class="d-flex gap-3 align-items-center justify-content-center">
+                        <i class="fa-regular fa-floppy-disk"></i>
+                        <p>Save</p>
+                    </button>
+                </section>
+            </form>
 
         </main>
 
@@ -268,6 +337,6 @@
 
     <script src="https://kit.fontawesome.com/5ac1ad0237.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="../scripts/404page/error.js"></script>
+    <script src="../scripts/profile/profile.js"></script>
 </body>
 </html>

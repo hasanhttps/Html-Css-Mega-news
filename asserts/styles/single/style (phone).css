@@ -49,6 +49,74 @@ header .right-header .search-section .search-box input{
 
 /*!Main*/
 
+main .path-section, main .post-section .left-section .post-header .post-title, main .post-section .left-section .post-header img, main .post-section .left-section .post-details
+, main .post-section .left-section .bottom-content .content .content-title, main .post-section .left-section .bottom-content .content .content-text, main .post-section .left-section .bottom-content .content
+   , main .post-section, main .post-section .left-section, main .post-section .left-section .bottom-content, main .post-section .left-section .comments .comments-section .comment1-reply
+      , main .add-comment .addcomment-form .input input, main .posts-section, main .related-posts, main .related-posts .title-section, main .add-comment .addcomment-form .input textarea
+         , main .add-comment{
+                width: 355px;
+}
+
+main .post-section .left-section .post-details{
+    justify-content: center;
+    gap: 40px;
+}
+
+main .post-section .left-section .post-details p{
+    text-wrap: nowrap;
+}
+
+main .post-section .left-section .post-details #desktop{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+main .post-section .left-section .post-details #phone{
+    visibility: visible;
+    height: 25px;
+    width: 100%;
+}
+
+main .post-section .left-section .bottom-content .image img{
+    width: 290px;
+    height: 161px;
+}
+
+main .post-section .left-section .post-header{
+    height: 320px;
+}
+
+main .post-section .left-section .post-header .post-title{
+    font-size: 20px;
+    top: 0px;
+}
+
+main .post-section .left-section .post-header img{
+    height: 198px;
+    top: 120px;
+}
+
+main .post-section .left-section .comments .comments-section .comment1-reply{
+    left: 0px;
+}
+
+main .post-section .left-section .comments .comments-section .comment2{
+    margin-top: 420px;
+    height: 205px;
+}
+
+main .add-comment .addcomment-form .footer-part .rating{
+    flex-direction: column;
+    width: 358px;
+    height: 107px;
+    justify-content: space-around !important;
+    align-items: start !important;
+}
+
+main .related-posts{
+    margin-top: 660px;
+}
 
 
 /*!Main End*/

@@ -90,14 +90,6 @@ main .post-section{
     width: 604px;
 }
 
-main .path-section{
-    width: 605px;
-}
-
-main .post-section .left-section{
-    width: 604px;
-}
-
 main .post-section .left-section .post-header{
     height: 486px;
 }
@@ -118,7 +110,14 @@ main .post-section .left-section .post-header img{
     height: 336px;
 }
 
-main .post-section .left-section .bottom-content{
+main .path-section .content-text{
+    text-wrap: nowrap;
+    overflow-x: hidden;
+}
+
+main .post-section .left-section .bottom-content, .title-section, main .top-posts-section .top-posts, main .posts-section
+, main .post-section .left-section, main .path-section, main .add-comment, main .add-comment .addcomment-form .footer-part .rating
+  , main .add-comment .addcomment-form .input textarea, main .add-comment .addcomment-form .input input{
     width: 604px;
 }
 
@@ -140,16 +139,17 @@ main .post-section .left-section .comments .comments-section .comment1-reply{
     width: 563px;
 }
 
-main .top-posts-section .top-posts{
-    width: 604px;
+main .add-comment .addcomment-form .body-part{
+    flex-direction: column;
 }
 
-.title-section{
-    width: 604px;
+main .related-posts-section{
+    margin-top: 350px;
 }
 
-main .posts-section{
-    width: 604px;
+main .add-comment .addcomment-form .footer-part{
+    flex-direction: column;
+    align-items: end;
 }
 
 /*!Main End*/

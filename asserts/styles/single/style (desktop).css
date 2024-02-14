@@ -223,6 +223,28 @@ header .search-section .search-box input{
     text-transform: capitalize;
 }
 
+.fa-face-angry, .fa-face-meh, .fa-face-grin-wide, .fa-face-grin-hearts, .fa-face-grin-stars{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.fa-face-angry{
+    color: #FC5C65;
+}
+
+.fa-face-meh{
+    color: #FA8231;
+}
+
+.fa-face-grin-wide{
+    color: #F7B731;
+}
+
+.fa-face-grin-hearts{
+    color: #45AAF2;
+}
+
 /*!Header End*/
 
 
@@ -456,6 +478,12 @@ main .post-section .left-section .comments .comments-section .header .left-heade
     border-radius: 12px;
 }
 
+main .post-section .left-section .post-details #phone{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
 main .post-section .left-section .comments .comments-section .content-text{
     font-size: 14px;
     font-weight: 400;
@@ -485,6 +513,88 @@ main .post-section .left-section .comments .comments-section .comment2{
 
 main .add-comment{
     margin-top: 60px;
+    gap: 30px;
+}
+
+main .add-comment .addcomment-form{
+    gap: 24px;
+}
+
+main .add-comment .addcomment-form .input input{
+    width: 488px;
+    padding: 0px 20px 0px;
+    height: 48px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #F5F5F5;
+}
+
+main .add-comment .addcomment-form .input textarea{
+    width: 616px;
+    height: 260px;
+    border-radius: 12px;
+    background: #F5F5F5;
+    padding: 20px;
+    color: #3E3232BF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    border: none;
+    outline-style: none;
+    align-items: start;
+}
+
+main .add-comment .addcomment-form .body-part{
+    gap: 24px;
+}
+
+main .add-comment .addcomment-form .body-part .left-section{
+    gap: 20px;
+}
+
+main .add-comment .addcomment-form .footer-part{
+    gap: 24px;
+}
+
+main .add-comment .addcomment-form .footer-part .rating{
+    width: 943px;
+    height: 48px;
+    padding: 4px 4px 4px 14px;
+    border-radius: 12px;
+    background-color: #F5F5F5;
+}
+
+main .add-comment .addcomment-form .footer-part .rating .feeling{
+    gap: 24px;
+}
+
+main .add-comment .addcomment-form .footer-part .rating .feeling button .content{
+    background: #26DE81;
+    width: 98px;
+    height: 40px;
+    padding: 10px 24px 10px 16px;
+    border-radius: 12px;
+    gap: 8px;
+}
+
+main .add-comment .addcomment-form .footer-part .t1{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+    text-wrap: nowrap;
+}
+
+main .add-comment .addcomment-form .footer-part .send-comment button{
+    background: #F81539BF;
+    width: 161px;
+    height: 48px;
+    padding: 10px 24px 10px 16px;
+    border-radius: 12px;
 }
 
 main .post-section .right-section{

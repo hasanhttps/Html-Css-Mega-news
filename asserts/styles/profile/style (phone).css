@@ -49,6 +49,44 @@ header .right-header .search-section .search-box input{
 
 /*!Main*/
 
+main, main .profile .user-information, main .path-section, main .profile, main .upload_dropZone, main .profile .explanation-section .background {
+    width: 358px !important;
+}
+
+main .profile .explanation-section{
+    flex-direction: column;
+    align-items: center;
+}
+
+main .profile .user-information .input input{
+    width: 358px;
+    height: 48px;
+}
+
+main .upload_dropZone{
+    height: 360px !important;
+}
+
+main .upload_dropZone .outline{
+    flex-direction: column;
+    width: 338px !important;
+    height: 340px !important;
+}
+
+main .upload_dropZone .outline .right-section{
+    align-items: center !important;
+}
+
+main .profile .explanation-section .background .add-explanation p{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+main .profile .explanation-section .background .explanation-text{
+    width: 318px;
+    height: 377px;
+}
 
 
 /*!Main End*/
